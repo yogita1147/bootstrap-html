@@ -1,0 +1,61 @@
+.container{
+    border:2px solid black;
+
+}
+html{
+    font-size: 62.5%;
+}
+
+#heading{
+    padding: 2rem;
+    background-color: orange;
+    font-size:4rem;
+}
+#nav{
+    background-color:pink;
+    color:blue;
+    font-size: 1rem;
+    padding:1rem;
+}
+
+#navUl{
+    display: flex;
+    
+}
+#navUl li{
+    list-style: none;
+    padding-right:2rem;
+    font-size: medium;
+
+  
+}
+
+#subheading{
+    padding:1rem;
+    
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+#description{
+    padding:1rem;
+    font-size: medium;
+
+}
+#sideNav{
+    background-color:skyblue;
+    font-size: medium;
+    font-weight: bold;
+}
+#sideNav li{
+    padding:-0.5rem;
+    list-style: none;
+}
+
+#copyrights{
+    background-color: orange;
+    padding:1rem;
+    font-weight: bold;
+    font-size: medium;
+}
