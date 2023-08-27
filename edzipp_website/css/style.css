@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    font-family:Poppins,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbaListMobile
+{
+    display:none;
+}
+
+.navbaList {
+   
+    color:white;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+   
+}
+.navbaList li {
+    margin:1.2 rem;
+    padding:.8rem;
+    cursor: pointer;
+}
+
+#edzippLogo
+{
+
+    font-size: large;
+    font-weight: bolder;
+    margin-top:.2rem;
+    
+}
+
+.myaccountBtn{
+    color:black;
+    background-color: #74e0ef;
+    border-radius: .5rem;
+    font-weight:bold;
+    padding:.7rem;
+    margin-top:.4rem;
+    cursor:pointer;
+    border:.2rem solid rgba(77, 205, 205, 0.893);
+    overflow: hidden;
+
+}
+#navbaListMobile{
+    display:none;
+}
+#logoImg{
+    /* margin:2px; */
+}
+.navbarListItem{
+    padding:2rem;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.navbarBox{
+    margin-left: 0rem;
+    padding-left: 0%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding:1rem;
+    
+}
+.headerBox{
+    margin-left: 0px;
+    padding-left: 0%;
+}
+.headerBox::before{
+    content:'';
+}
+
+#logoImg{
+  
+    justify-self: center;
+}
+
+.anchorStyle{
+    text-decoration: none;
+    color:inherit;
+}
+
+html{
+    font-size:62.5%;
+}
+.navBtn{
+    display: none;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+ /* Large devices (desktops, 992px and up) */
+ .navbarBox{
+    /* background-color: rgb(82, 194, 45); */
+}
+.navBtn{
+    display: none;
+
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* Medium devices (tablets, 768px and up) */
+    .navbarBox{
+        /* background-color: rgb(49, 38, 213); */
+    }
+    .navBtn{
+        display: none;
+    
+    }
+    .navbaListMobile{
+        display:none;
+    }
+    .navbaListMobile
+    {
+        display:none;
+    }
+    .navbarListItemMobile{
+        display:none;
+    }
+    
+    
+    
+   
+    }
+@media only screen and (max-width: 767.98px) { 
+    /* mobile */ 
+    .navbarBox{
+        /* background-color: red; */
+    }
+    .myaccountBtn{
+        display:none;
+    }
+    #navbaList{
+        display:none;
+    }
+    .navbaList{
+        display: none;
+    }
+    .navBtn{
+        display: inline;
+    
+    }
+    .navbaListMobile
+    {
+        background-color: black;
+    }
+
+    .navbarListItemMobile{
+        background-color: black;
+        color:white;
+        text-align: left;
+        padding:.8rem;
+        font-size: 1.4rem;
+    }
+    .myAccountBtnMobile{
+        color:black;
+    background-color: #74e0ef;
+    border-radius: .5rem;
+    font-weight:bold;
+    cursor:pointer;
+    border:.2rem solid rgba(77, 205, 205, 0.893);
+    overflow: hidden;
+    padding-top:.5rem;
+    padding-bottom: .5rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    margin-bottom: 1rem;
+    margin-top:1rem;
+    margin-left:0.5rem;
+
+
+
+    }
+    #logoImg{
+        /* position: absolute;
+        left:.5rem; */
+        align-self: center;
+    }
+    .navBtn{
+        /* position:absolute; */
+        /* right:.5rem; */
+
+    }
+    .customContainer{
+        width: 90%;
+    }
+    
+    }
+
+
+
+.customContainer{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+    
+    
+}
+
+.logoDiv{
+    padding:.2rem;
+}
+
+#navButton{
+    color:aliceblue
+
+}
+
+.navBtnInside{
+    width:35px;
+    height:2px;
+    background-color: white;
+    margin:6px 0;
+
+}

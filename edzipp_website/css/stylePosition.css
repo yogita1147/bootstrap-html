@@ -1,0 +1,47 @@
+.container{
+    border:2px solid red;
+    height:80rem;
+    width:150rem;
+    position: relative;
+
+}
+
+.box{
+    border:2px solid green;
+    width:10rem;
+    height:10rem;
+   
+
+}
+html{
+    font-size:62.5%;
+}
+#box1{
+    position:absolute;
+    left:0rem;
+    top:0rem;
+}
+#box2{
+    position:absolute;
+    right:0rem;
+    top:0rem;
+
+}
+#box3{
+    position:Absolute;
+    bottom:0rem;
+    left:0rem;
+}
+#box4{
+    position:absolute;
+    bottom:0rem;
+    right:0rem;
+}
+#box5{
+    position:Absolute;
+    left:50%;
+    top:50%;
+    bottom: 50%;
+
+
+}

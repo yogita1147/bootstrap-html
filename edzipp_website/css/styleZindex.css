@@ -1,0 +1,42 @@
+.container{
+    border:2px solid red;
+    height:80rem;
+    width:150rem;
+    position:relative;
+    margin:auto ;
+    
+
+}
+
+.box{
+    border:2px solid green;
+    width:10rem;
+    height:10rem;
+   
+
+}
+html{
+    font-size:62.5%;
+   
+}
+#item1{
+    background-color: #74e0ef;
+    position:absolute;
+    z-index:1;
+    
+}
+#item2{
+    background-color: blue;
+    position: absolute;
+    top:12px;
+    left:12px;
+    z-index:2;
+}
+
+#item3{
+    background-color:blueviolet;
+    position:absolute;
+    top:24px;
+    left:24px;
+    z-index:3;
+}
